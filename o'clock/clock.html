@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clock.css">
+    <script>
+        let a;
+        let date;
+        let time;
+        setInterval(() => {
+                a= new Date();
+                date = a.toLocaleDateString();
+                time = a.getHours() +':'+ a.getMinutes() +':'+ a.getSeconds();
+                document.getElementById('clockbox').innerHTML = time;
+        }, 1000);
+       
+    </script>
+</head>
+<body>
+    <div class="box">
+        <div class="innerbox">
+           <h1> <div id="clockbox">This is the time</div></h1>
+        </div>
+    </div>
+</body>
+</html>
