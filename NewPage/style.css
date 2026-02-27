@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+    background-color: rgb(179, 164, 164);
+    height: 60px;
+    width: 100%;
+    margin: 0px,0px,0px,0px;
+    
+}
+.upper{
+    width: 10px;
+    height: 10px;
+    
+}
+b{
+  font-style: unset;
+   /* font-style: oblique; */
+}
+#box{
+    background-color: rgb(212, 210, 210);
+    width: 50%;
+    height: 550px;
+    margin-left: 25%;
+    margin-top: 3%;
+    border-radius: 5px;
+     
+}
+#one1{
+    margin-top: 0px;
+    font-size: 30px;
+}
+#password{
+    height: 35px;
+    width: 580px;
+    font-size: medium;
+    
+}
+#User_Name{
+    height: 35px;
+    width: 580px;
+    font-size: medium;
+    font-style: oblique;
+    
+    
+}
